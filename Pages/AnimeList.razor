@@ -1,8 +1,8 @@
 @page "/"
 
-@using myApp.Data 
+@using MyApp.Services
 
-<h1>Top Anime List</h1>
+<h1>Top 100 Anime List</h1>
 
 @if (animeList == null)
 {
@@ -11,10 +11,10 @@
 else
 {
     <ul>
-        @foreach (var anime in animeList)
+        @foreach (var anime in animeList.Take(100)) // Ensure only the top 100 are displayed
         {
             <li>
-                <img src="@anime.ImageURL" alt="@anime.Title" style="width: 100px; height: 150px;" />
+                <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" style="width: 100px; height: 150px;" />
                 <p>@anime.Title</p>
             </li>
         }
@@ -22,14 +22,13 @@ else
 }
 
 @code {
-    List<Anime> animeList;
+    private List<AnimeData> animeList; // Correctly typed to match the data structure
 
     [Inject]
     private AnimeService AnimeService { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        // Initialize the anime list when the component is initialized
         animeList = await AnimeService.GetAnimeListAsync();
     }
 }

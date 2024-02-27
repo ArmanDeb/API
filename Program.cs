@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using myApp;
-using myApp.Data; // Import the namespace where AnimeService is located
+using MyApp.Services; // Import the namespace where AnimeService is located
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;

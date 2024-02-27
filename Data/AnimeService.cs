@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace myApp.Data // Ensure this namespace matches your project structure
+namespace MyApp.Services
 {
     public class AnimeService
     {
@@ -12,40 +12,51 @@ namespace myApp.Data // Ensure this namespace matches your project structure
 
         public AnimeService(HttpClient httpClient)
         {
-            _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
+            _httpClient = httpClient;
         }
 
-        public async Task<List<Anime>> GetAnimeListAsync()
-        {
-            // Endpoint for top anime list in Jikan API v4
-            string apiUrl = "https://api.jikan.moe/v4/top/anime";
+        // Assuming an endpoint URL for listing anime
+        private string listAnimeEndpoint = "https://api.jikan.moe/v4/top/anime";
 
+        public async Task<List<AnimeData>> GetAnimeListAsync()
+        {
             try
             {
-                // Fetch data from Jikan API
-                var animeResponse = await _httpClient.GetFromJsonAsync<JikanApiResponse>(apiUrl);
-
-                // Extract and return the anime list
-                return animeResponse?.Top ?? new List<Anime>();
+                var response = await _httpClient.GetFromJsonAsync<AnimeResponse>(listAnimeEndpoint);
+                return response?.Data ?? new List<AnimeData>();
             }
             catch (Exception ex)
             {
-                // Handle any errors
                 Console.WriteLine($"Error fetching anime list: {ex.Message}");
-                return new List<Anime>();
+                return new List<AnimeData>();
             }
         }
     }
 
-    public class JikanApiResponse
+    public class AnimeResponse
     {
-        public List<Anime> Top { get; set; }
+        public List<AnimeData> Data { get; set; }
     }
 
-    public class Anime
+    public class AnimeData
     {
-        public string Title { get; set; }
-        public string ImageURL { get; set; }
-        // Add other properties you want to display
+        public int Mal_id { get; set; }
+        public string Url { get; set; }
+        public string Title { get; set; } // Added title property
+        public AnimeImages Images { get; set; }
+        // Other properties as needed
+    }
+
+    public class AnimeImages
+    {
+        public AnimeImageType Jpg { get; set; }
+        // Include Webp if needed
+    }
+
+    public class AnimeImageType
+    {
+        public string Image_url { get; set; }
+        public string Small_image_url { get; set; }
+        public string Large_image_url { get; set; }
     }
 }
