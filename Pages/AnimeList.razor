@@ -1,0 +1,35 @@
+@page "/"
+
+@using myApp.Data 
+
+<h1>Top Anime List</h1>
+
+@if (animeList == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+        @foreach (var anime in animeList)
+        {
+            <li>
+                <img src="@anime.ImageURL" alt="@anime.Title" style="width: 100px; height: 150px;" />
+                <p>@anime.Title</p>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    List<Anime> animeList;
+
+    [Inject]
+    private AnimeService AnimeService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Initialize the anime list when the component is initialized
+        animeList = await AnimeService.GetAnimeListAsync();
+    }
+}
