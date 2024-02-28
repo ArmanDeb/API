@@ -1,8 +1,12 @@
 @page "/"
 
 @using MyApp.Services
+@inject AnimeService AnimeService
+@inject NavigationManager NavigationManager
 
 <h1>Top 100 Anime List</h1>
+
+<button @onclick="GoToSearch">Search Anime</button> <!-- Search button -->
 
 @if (animeList == null)
 {
@@ -24,11 +28,13 @@ else
 @code {
     private List<AnimeData> animeList; // Correctly typed to match the data structure
 
-    [Inject]
-    private AnimeService AnimeService { get; set; }
-
     protected override async Task OnInitializedAsync()
     {
         animeList = await AnimeService.GetAnimeListAsync();
+    }
+
+    private void GoToSearch()
+    {
+        NavigationManager.NavigateTo("/search"); // Navigates to the search page
     }
 }
