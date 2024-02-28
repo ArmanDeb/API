@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6OC3/OofIIrdOS5B2mLxRYLn6MNVng1MWgBjzWSFn7xrAwLu//Ji0qzsoYNDvR/x3Uww44uaMvZrD6wo8KvlMQ==",
+  "dgSpecHash": "wxSmY7+ygLztl6EFy1gffMRpinO1DCKr1+hH9/KEUe9VGDa/9Su+LZSmh+DPp0gzQmGMCldIKzXVn4kY/rhO6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\myApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\arman\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0\\microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",

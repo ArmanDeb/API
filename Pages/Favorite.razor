@@ -1,0 +1,41 @@
+@page "/favorites"
+@using MyApp.Services
+@inject AnimeService AnimeService
+
+<h3>Favorites</h3>
+
+@if (favoriteAnimes == null)
+{
+    <p>Loading favorites...</p>
+}
+else if (favoriteAnimes.Count == 0)
+{
+    <p>No favorites added yet.</p>
+}
+else
+{
+    foreach (var anime in favoriteAnimes)
+    {
+        <div>
+            <img src="@anime.Images.Jpg.Image_url" alt="Image" style="width: 100px; height: 150px;" />
+            <p>@anime.Title</p>
+            <button @onclick="() => ToggleFavorite(anime)">Remove from Favorites</button>
+        </div>
+    }
+}
+
+@code {
+    private List<AnimeData> favoriteAnimes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var favoriteIds = await AnimeService.GetFavoritesAsync();
+        favoriteAnimes = await AnimeService.GetAnimesByIdsAsync(favoriteIds.ToList());
+    }
+
+    private async Task ToggleFavorite(AnimeData anime)
+    {
+        await AnimeService.ToggleFavoriteAsync(anime.Mal_id);
+        favoriteAnimes.Remove(anime);
+    }
+}

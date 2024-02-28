@@ -1,12 +1,12 @@
 @page "/"
-
 @using MyApp.Services
 @inject AnimeService AnimeService
 @inject NavigationManager NavigationManager
 
 <h1>Top 100 Anime List</h1>
 
-<button @onclick="GoToSearch">Search Anime</button> <!-- Search button -->
+<button @onclick="GoToSearch">Search Anime</button>
+<button @onclick="GoToFavorites">Favorites</button>
 
 @if (animeList == null)
 {
@@ -15,26 +15,43 @@
 else
 {
     <ul>
-        @foreach (var anime in animeList.Take(100)) // Ensure only the top 100 are displayed
+        @foreach (var anime in animeList.Take(100))
         {
             <li>
                 <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" style="width: 100px; height: 150px;" />
                 <p>@anime.Title</p>
+                <button @onclick="() => ToggleFavorite(anime)">
+                    @((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))
+                </button>
             </li>
         }
     </ul>
 }
 
 @code {
-    private List<AnimeData> animeList; // Correctly typed to match the data structure
+    private List<AnimeData> animeList;
+    private HashSet<int> favoriteIds;
 
     protected override async Task OnInitializedAsync()
     {
         animeList = await AnimeService.GetAnimeListAsync();
+        favoriteIds = await AnimeService.GetFavoritesAsync();
     }
 
-    private void GoToSearch()
+    private async Task ToggleFavorite(AnimeData anime)
     {
-        NavigationManager.NavigateTo("/search"); // Navigates to the search page
+        await AnimeService.ToggleFavoriteAsync(anime.Mal_id);
+        if (favoriteIds.Contains(anime.Mal_id))
+        {
+            favoriteIds.Remove(anime.Mal_id);
+        }
+        else
+        {
+            favoriteIds.Add(anime.Mal_id);
+        }
+        StateHasChanged(); // Refresh the UI to reflect the change
     }
+
+    private void GoToSearch() => NavigationManager.NavigateTo("/search");
+    private void GoToFavorites() => NavigationManager.NavigateTo("/favorites");
 }

@@ -1,6 +1,7 @@
 @page "/search"
 @using MyApp.Services
 @inject AnimeService AnimeService
+@inject NavigationManager NavigationManager
 
 <h1>Anime Search</h1>
 <input type="text" @bind="searchQuery" placeholder="Search for anime..." />
@@ -12,8 +13,11 @@
         @foreach (var anime in searchResults)
         {
             <li>
-                <img src="@anime.Images.Jpg.Image_url" alt="Image" style="width: 100px; height: 150px;" />
+                <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" style="width: 100px; height: 150px;" />
                 <p>@anime.Title</p>
+                <button @onclick="() => ToggleFavorite(anime)">
+                    @((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))
+                </button>
             </li>
         }
     </ul>
@@ -26,9 +30,30 @@ else
 @code {
     private string searchQuery;
     private List<AnimeData> searchResults;
+    private HashSet<int> favoriteIds;
+
+    protected override async Task OnInitializedAsync()
+    {
+        favoriteIds = await AnimeService.GetFavoritesAsync();
+    }
 
     private async Task PerformSearch()
     {
         searchResults = await AnimeService.SearchAnimeAsync(searchQuery);
+    }
+
+    private async Task ToggleFavorite(AnimeData anime)
+    {
+        await AnimeService.ToggleFavoriteAsync(anime.Mal_id);
+        if (favoriteIds.Contains(anime.Mal_id))
+        {
+            favoriteIds.Remove(anime.Mal_id);
+        }
+        else
+        {
+            favoriteIds.Add(anime.Mal_id);
+        }
+        // This call is necessary to refresh the UI after the change.
+        StateHasChanged();
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vJH5n9DR/GsXPBlqGa4JK/N+WpTuM08uF9bk9VUJyy8=",
+  "Hash": "pkhgzYjn7VyMmrlxs2j4W57dMO8gOSKMj0pfQZO/V7I=",
   "Source": "myApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.0\\build\\net8.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\webcil\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
@@ -4081,6 +4100,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.IsolatedStorage.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\18oexbg5oi.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\1f2a4ntu2z.gz",
