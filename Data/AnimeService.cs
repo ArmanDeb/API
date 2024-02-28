@@ -17,6 +17,8 @@ namespace MyApp.Services
 
         // Assuming an endpoint URL for listing anime
         private string listAnimeEndpoint = "https://api.jikan.moe/v4/top/anime";
+        // Endpoint for searching anime
+        private string searchAnimeEndpoint = "https://api.jikan.moe/v4/anime";
 
         public async Task<List<AnimeData>> GetAnimeListAsync()
         {
@@ -31,6 +33,21 @@ namespace MyApp.Services
                 return new List<AnimeData>();
             }
         }
+
+        // New search method
+        public async Task<List<AnimeData>> SearchAnimeAsync(string query)
+        {
+            try
+            {
+                var response = await _httpClient.GetFromJsonAsync<AnimeResponse>($"{searchAnimeEndpoint}?q={Uri.EscapeDataString(query)}");
+                return response?.Data ?? new List<AnimeData>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error searching for anime: {ex.Message}");
+                return new List<AnimeData>();
+            }
+        }
     }
 
     public class AnimeResponse
@@ -42,7 +59,7 @@ namespace MyApp.Services
     {
         public int Mal_id { get; set; }
         public string Url { get; set; }
-        public string Title { get; set; } // Added title property
+        public string Title { get; set; } // Ensure you have a Title property as it's crucial for search results.
         public AnimeImages Images { get; set; }
         // Other properties as needed
     }
