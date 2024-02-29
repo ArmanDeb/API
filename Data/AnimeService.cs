@@ -73,27 +73,32 @@ namespace MyApp.Services
             return await _localStorage.GetItemAsync<HashSet<int>>(FavoriteAnimeKey) ?? new HashSet<int>();
         }
 
-        public async Task<List<AnimeData>> GetAnimesByIdsAsync(IEnumerable<int> animeIds)
+       public async Task<List<AnimeData>> GetAnimesByIdsAsync(IEnumerable<int> animeIds)
+{
+    var animes = new List<AnimeData>();
+    foreach (var id in animeIds)
+    {
+        var endpoint = $"https://api.jikan.moe/v4/anime/{id}";
+        try
         {
-            var animes = new List<AnimeData>();
-            foreach (var id in animeIds)
+            var animeResponse = await _httpClient.GetFromJsonAsync<SingleAnimeResponse>(endpoint);
+            if (animeResponse?.Data != null)
             {
-                var endpoint = $"https://api.jikan.moe/v4/anime/{id}";
-                try
-                {
-                    var response = await _httpClient.GetFromJsonAsync<AnimeResponse>(endpoint);
-                    if (response?.Data != null && response.Data.Count > 0)
-                    {
-                        animes.Add(response.Data[0]); // Assuming Data is a list with a single item
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Error fetching anime with ID {id}: {ex.Message}");
-                }
+                animes.Add(animeResponse.Data); // Directly add the single object to the list
             }
-            return animes;
         }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching anime with ID {id}: {ex.Message}");
+        }
+    }
+    return animes;
+}
+
+public class SingleAnimeResponse
+{
+    public AnimeData Data { get; set; } // Adjusted to correctly match a single AnimeData object response
+}
     }
 
     public class AnimeResponse
