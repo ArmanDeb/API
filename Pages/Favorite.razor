@@ -17,7 +17,7 @@ else
     foreach (var anime in favoriteAnimes)
     {
         <div>
-            <img src="@anime.Images.Jpg.Image_url" alt="Image" style="width: 100px; height: 150px;" />
+            <img src="@anime.Images.Jpg.Image_url" alt="Image" style="width: 200px; height: 300px;" />
             <p>@anime.Title</p>
             <button @onclick="() => ToggleFavorite(anime)">Remove from Favorites</button>
         </div>

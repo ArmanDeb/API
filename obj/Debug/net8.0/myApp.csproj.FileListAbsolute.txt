@@ -1035,3 +1035,5 @@ C:\Users\arman\Desktop\Desktop\IFOSUP\BAC2 (2023-2024)\Orientée objet\Git\API\b
 C:\Users\arman\Desktop\Desktop\IFOSUP\BAC2 (2023-2024)\Orientée objet\Git\API\bin\Debug\net8.0\Blazored.LocalStorage.dll
 C:\Users\arman\Desktop\Desktop\IFOSUP\BAC2 (2023-2024)\Orientée objet\Git\API\obj\Debug\net8.0\webcil\Blazored.LocalStorage.wasm
 C:\Users\arman\Desktop\Desktop\IFOSUP\BAC2 (2023-2024)\Orientée objet\Git\API\obj\Debug\net8.0\compressed\18oexbg5oi.gz
+C:\Users\arman\Desktop\Desktop\IFOSUP\BAC2 (2023-2024)\Orientée objet\Git\API\bin\Debug\net8.0\net8.0\myApp.staticwebassets.runtime.json
+C:\Users\arman\Desktop\Desktop\IFOSUP\BAC2 (2023-2024)\Orientée objet\Git\API\bin\Debug\net8.0\net8.0\wwwroot\_framework\blazor.boot.json

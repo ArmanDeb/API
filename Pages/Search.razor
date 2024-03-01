@@ -6,6 +6,8 @@
 <h1>Anime Search</h1>
 <input type="text" @bind="searchQuery" placeholder="Search for anime..." />
 <button @onclick="PerformSearch">Search</button>
+<button @onclick="GoToFavorites">Favorites</button>
+
 
 @if (searchResults != null)
 {
@@ -13,7 +15,7 @@
         @foreach (var anime in searchResults)
         {
             <li>
-                <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" style="width: 100px; height: 150px;" />
+                <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" style="width: 200px; height: 300px;" />
                 <p>@anime.Title</p>
                 <button @onclick="() => ToggleFavorite(anime)">
                     @((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))
@@ -56,4 +58,5 @@ else
         // This call is necessary to refresh the UI after the change.
         StateHasChanged();
     }
+        private void GoToFavorites() => NavigationManager.NavigateTo("/favorites");
 }
