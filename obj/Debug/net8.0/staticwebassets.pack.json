@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\myApp.styles.css"
     },
     {
+      "Id": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\wwwroot\\css\\MyStyle.css",
+      "PackagePath": "staticwebassets\\css\\MyStyle.css"
+    },
+    {
       "Id": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

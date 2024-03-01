@@ -5,7 +5,8 @@
 
 <html>
     <head>
-
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/MyStyle.css" rel="stylesheet" />
     </head>
 
     <body>
@@ -22,20 +23,15 @@
         <ul>
             @foreach (var anime in animeList.Take(100))
             {
-                <li>
-                    <div class="anime-item">
-                        <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" style="width: 200px; height: 300px;" />
-                        <div>
-                            <p>@anime.Title</p>
-                            <button @onclick="() => ToggleFavorite(anime)" class="heart-btn">
-                                @((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))
-                            </button>
-                        </div>
+                <li class="card">
+                    <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" />
+                    <div class="card-content">
+                        <h2>@anime.Title <button @onclick="() => ToggleFavorite(anime)" class="heart-btn">@((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))</button></h2>
                     </div>
                 </li>
-
             }
         </ul>
+
     }
 
     @code {

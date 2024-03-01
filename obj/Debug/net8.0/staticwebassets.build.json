@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pkhgzYjn7VyMmrlxs2j4W57dMO8gOSKMj0pfQZO/V7I=",
+  "Hash": "5ejKDfuczkY9+YS6iDxMf8Jp3QpFsHwhgJ/gHg2/+XA=",
   "Source": "myApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -7900,6 +7900,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\wwwroot\\css\\MyStyle.css",
+      "SourceId": "myApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/MyStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MyStyle.css"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\wwwroot\\favicon.png",

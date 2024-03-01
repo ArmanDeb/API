@@ -3,6 +3,15 @@
 @inject AnimeService AnimeService
 @inject NavigationManager NavigationManager
 
+
+
+<html>
+    <head>
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/MyStyle.css" rel="stylesheet" />
+    </head>
+
+    <body>
 <h1>Anime Search</h1>
 <input type="text" @bind="searchQuery" placeholder="Search for anime..." />
 <button @onclick="PerformSearch">Search</button>
@@ -11,18 +20,18 @@
 
 @if (searchResults != null)
 {
-    <ul>
-        @foreach (var anime in searchResults)
-        {
-            <li>
-                <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" style="width: 200px; height: 300px;" />
-                <p>@anime.Title</p>
-                <button @onclick="() => ToggleFavorite(anime)">
-                    @((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))
-                </button>
-            </li>
-        }
-    </ul>
+   <ul>
+    @foreach (var anime in searchResults)
+    {
+        <li class="card">
+            <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" />
+            <div class="card-content">
+                <h2>@anime.Title <button @onclick="() => ToggleFavorite(anime)" class="heart-btn">@((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))</button></h2>
+            </div>
+        </li>
+    }
+</ul>
+
 }
 else
 {
@@ -60,3 +69,5 @@ else
     }
         private void GoToFavorites() => NavigationManager.NavigateTo("/favorites");
 }
+    </body>
+</html>
