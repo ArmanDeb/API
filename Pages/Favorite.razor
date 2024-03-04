@@ -16,11 +16,18 @@ else
 {
     foreach (var anime in favoriteAnimes)
     {
-        <div>
-            <img src="@anime.Images.Jpg.Image_url" alt="Image" style="width: 200px; height: 300px;" />
-            <p>@anime.Title</p>
-            <button @onclick="() => ToggleFavorite(anime)">Remove from Favorites</button>
-        </div>
+        <li class="card">
+            <div>
+                <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" @onclick="() => ToggleSynopsis(anime)" />
+                <div class="card-content">
+                    <button @onclick="() => ToggleFavorite(anime)">Remove from Favorites</button>
+                    @if (anime.ShowSynopsis)
+                    {
+                        <p>@anime.Synopsis</p>
+                    }
+                </div>
+            </div>
+        </li>
     }
 }
 
@@ -38,4 +45,9 @@ else
         await AnimeService.ToggleFavoriteAsync(anime.Mal_id);
         favoriteAnimes.Remove(anime);
     }
+
+     private void ToggleSynopsis(AnimeData anime)
+        {
+            anime.ShowSynopsis = !anime.ShowSynopsis;
+        }
 }

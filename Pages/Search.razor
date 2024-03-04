@@ -24,11 +24,15 @@
     @foreach (var anime in searchResults)
     {
         <li class="card">
-            <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" />
-            <div class="card-content">
-                <h2>@anime.Title <button @onclick="() => ToggleFavorite(anime)" class="heart-btn">@((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))</button></h2>
-            </div>
-        </li>
+        <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" @onclick="() => ToggleSynopsis(anime)" />
+        <div class="card-content">
+            <h2>@anime.Title <button @onclick="() => ToggleFavorite(anime)" class="heart-btn">@((favoriteIds.Contains(anime.Mal_id) ? "♥" : "♡"))</button></h2>
+            @if (anime.ShowSynopsis)
+            {
+                <p>@anime.Synopsis</p>
+            }
+        </div>
+    </li>
     }
 </ul>
 
@@ -68,6 +72,10 @@ else
         StateHasChanged();
     }
         private void GoToFavorites() => NavigationManager.NavigateTo("/favorites");
+        private void ToggleSynopsis(AnimeData anime)
+        {
+            anime.ShowSynopsis = !anime.ShowSynopsis;
+        }
 }
     </body>
 </html>
