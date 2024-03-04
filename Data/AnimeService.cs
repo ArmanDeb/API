@@ -111,6 +111,8 @@ public class SingleAnimeResponse
         public int Mal_id { get; set; }
         public string Url { get; set; }
         public string Title { get; set; } // Ensure you have a Title property as it's crucial for search results.
+        public string Synopsis { get; set; }
+         public bool ShowSynopsis { get; set; }
         public AnimeImages Images { get; set; }
         // Other properties as needed
     }
