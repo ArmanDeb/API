@@ -32,3 +32,10 @@
     margin-top: 5px; /* Add space between the title and the paragraph */
     margin-bottom: 10px; /* Add space below the paragraph */
 }
+
+.remove-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* Add other styling as needed */
+}

@@ -62,6 +62,20 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "bunit": {
+              "target": "Package",
+              "version": "[1.26.64, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.7, )"
             }
           },
           "imports": [

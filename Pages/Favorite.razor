@@ -2,6 +2,13 @@
 @using MyApp.Services
 @inject AnimeService AnimeService
 
+
+<html>
+    <head>
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/MyStyle.css" rel="stylesheet" />
+    </head>
+<body>
 <h3>Favorites</h3>
 
 @if (favoriteAnimes == null)
@@ -14,21 +21,22 @@ else if (favoriteAnimes.Count == 0)
 }
 else
 {
+    
     foreach (var anime in favoriteAnimes)
     {
         <li class="card">
-            <div>
                 <img src="@anime.Images.Jpg.Image_url" alt="@anime.Title" @onclick="() => ToggleSynopsis(anime)" />
                 <div class="card-content">
-                    <h2>@anime.Title<button @onclick="() => ToggleFavorite(anime)">Remove from Favorites</button></h2>
+                    <h2>@anime.Title</h2>
                     @if (anime.ShowSynopsis)
                     {
                         <p>@anime.Synopsis</p>
                     }
                 </div>
-            </div>
+                <button class="remove-button" @onclick="() => ToggleFavorite(anime)">Remove from Favorites</button>
         </li>
     }
+    
 }
 
 @code {
@@ -51,3 +59,6 @@ else
             anime.ShowSynopsis = !anime.ShowSynopsis;
         }
 }
+
+   </body>
+</html>
