@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "abRlC345EHeOHg55jSdpKB/2EKaL5899LgxCJWIpvWQ=",
+  "Hash": "OHpVMdP/lsRQiTvOFGgFDziZNskkTqyCD9EyK7PLdp8=",
   "Source": "myApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.0.0a2xc4u9zq.js",
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.qudnb103ap.js",
       "SourceId": "myApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.0.0a2xc4u9zq.js",
+      "RelativePath": "_framework/dotnet.native.8.0.3.qudnb103ap.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.0.bjhspqdjl3.js",
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.fnibbwhrfr.js",
       "SourceId": "myApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.0.bjhspqdjl3.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.3.fnibbwhrfr.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,7 +280,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -299,7 +299,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -337,7 +337,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -356,7 +356,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.0\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -4235,25 +4235,6 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm"
     },
     {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\0a2xc4u9zq.gz",
-      "SourceId": "myApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.0.0a2xc4u9zq.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.0.0a2xc4u9zq.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.0.0a2xc4u9zq.js"
-    },
-    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\0d49h32ncs.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -4292,6 +4273,25 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Data.wasm"
     },
     {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\0ean1asm6k.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
+    },
+    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\0er7k3uk2n.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -4328,25 +4328,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\0vepcl89xp.gz",
-      "SourceId": "myApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\12s4jvhdjw.gz",
@@ -4463,6 +4444,25 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Principal.wasm"
     },
     {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\2bgf5b84dq.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\2o54a686tp.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -4537,6 +4537,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Timer.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\3inevi8mk1.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\3pt5bgf45p.gz",
@@ -4803,25 +4822,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Extensions.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\4xgdqsgn9f.gz",
-      "SourceId": "myApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\524yxtt8sm.gz",
@@ -5337,25 +5337,6 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm"
     },
     {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\alp9pt520n.gz",
-      "SourceId": "myApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
-    },
-    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\b0ky6ndm19.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -5411,25 +5392,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\bjhspqdjl3.gz",
-      "SourceId": "myApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.0.bjhspqdjl3.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.0.bjhspqdjl3.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.0.bjhspqdjl3.js"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\bl2gn6z1mm.gz",
@@ -5622,25 +5584,6 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Tools.wasm"
     },
     {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\cwhiucjfwx.gz",
-      "SourceId": "myApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
-    },
-    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\dbl96p1ldn.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -5753,25 +5696,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\eil237rez8.gz",
-      "SourceId": "myApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\eoaml4bf62.gz",
@@ -5926,6 +5850,25 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\myApp.pdb"
     },
     {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\fnibbwhrfr.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.3.fnibbwhrfr.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.fnibbwhrfr.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.fnibbwhrfr.js"
+    },
+    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\fofvg72bwp.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -6040,23 +5983,23 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Http.wasm"
     },
     {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\gb4y3en3mf.gz",
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\gikp6rkkow.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "RelativePath": "_framework/dotnet.js.map.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\gjuf1wr4rp.gz",
@@ -6819,6 +6762,25 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Transactions.Local.wasm"
     },
     {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\lp2xmdx1az.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
+    },
+    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\lq3h1ld8n0.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -7465,6 +7427,25 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm"
     },
     {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\qudnb103ap.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.3.qudnb103ap.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.qudnb103ap.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.qudnb103ap.js"
+    },
+    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\qyjdae2lbg.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -7579,6 +7560,25 @@
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipes.wasm"
     },
     {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\s6dltbodhy.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
+    },
+    {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\s8zht8z4nj.gz",
       "SourceId": "myApp",
       "SourceType": "Computed",
@@ -7634,25 +7634,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\szas0cwrzh.gz",
-      "SourceId": "myApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\t3laxd8a5l.gz",
@@ -7786,6 +7767,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.OpenSsl.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\uety4ldd2q.gz",
+      "SourceId": "myApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\arman\\Desktop\\Desktop\\IFOSUP\\BAC2 (2023-2024)\\Orientée objet\\Git\\API\\obj\\Debug\\net8.0\\compressed\\ujifo62mfy.gz",

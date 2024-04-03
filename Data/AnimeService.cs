@@ -73,6 +73,16 @@ namespace MyApp.Services
             return await _localStorage.GetItemAsync<HashSet<int>>(FavoriteAnimeKey) ?? new HashSet<int>();
         }
 
+        private async Task UpdatePersonalNoteAsync(AnimeData anime)
+{
+    // Save the updated personal note using localStorage or any other storage mechanism
+    // For example, using localStorage:
+    await _localStorage.SetItemAsync($"PersonalNote_{anime.Mal_id}", anime.PersonalNote);
+}
+
+
+
+
        public async Task<List<AnimeData>> GetAnimesByIdsAsync(IEnumerable<int> animeIds)
 {
     var animes = new List<AnimeData>();
@@ -114,6 +124,7 @@ public class SingleAnimeResponse
         public string Synopsis { get; set; }
          public bool ShowSynopsis { get; set; }
         public AnimeImages Images { get; set; }
+        public string PersonalNote { get; set; }
         // Other properties as needed
     }
 
