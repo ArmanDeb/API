@@ -39,7 +39,7 @@ namespace MyApp.Services
         }
 
         // New search method
-        public async Task<List<AnimeData>> SearchAnimeAsync(string query)
+        public virtual async Task<List<AnimeData>> SearchAnimeAsync(string query)
         {
             try
             {
